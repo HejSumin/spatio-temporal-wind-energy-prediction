@@ -16,16 +16,16 @@ The prediction models are implemented by using [Pytorch Geometric Temporal](http
 ### Usage
 
 - Library installation
-```
-pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
-pip install torch-sparse -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
-pip install torch-geometric
-pip install torch-geometric-temporal
-```
+  ```
+  pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
+  pip install torch-sparse -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
+  pip install torch-geometric
+  pip install torch-geometric-temporal
+  ```
 
-where `${CUDA}` should be replaced by either `cpu`, `cu102`, or `cu113` depending on your PyTorch installation.
+  where `${CUDA}` should be replaced by either `cpu`, `cu102`, or `cu113` depending on your PyTorch installation.
 
-For more information on the library installation, please visit the documentation of [Pytorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html). 
+  For more information on the library installation, please visit the documentation of [Pytorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html). 
 
 - To run the prediction test with the sample dataset, simply run the `DCRNN.ipynb` or `LRGCN.ipynb` notebooks. 
 - To create a new graph format dataset, preprocess the raw dataset by using `dataset_preparation`, then use `static_graph_generator.py` or `dynamic_graph_generator.py`. 
