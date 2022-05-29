@@ -16,10 +16,12 @@ The prediction models are implemented by using [Pytorch Geometric Temporal](http
 ### Usage
 
 - Library installation
+```
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
 pip install torch-sparse -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
 pip install torch-geometric
 pip install torch-geometric-temporal
+```
 
 where `${CUDA}` should be replaced by either `cpu`, `cu102`, or `cu113` depending on your PyTorch installation.
 
