@@ -1,5 +1,4 @@
-# Spatio-temporal Dependencies in Wind Energy Prediction
-  : An analysis utilizing graph representations of Wind Turbines
+# Spatio-temporal wind energy prediction using GNNs
 
 
 ## Tools
